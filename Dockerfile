@@ -1,4 +1,4 @@
-FROM alanraison/minecraft:latest
+FROM alanraison/minecraft:1.10.2
 RUN mkdir -p /mc/mods
 WORKDIR /mc
 ADD \
